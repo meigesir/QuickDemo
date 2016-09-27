@@ -1,0 +1,6 @@
+framework module Pods_BDDQuick {
+  umbrella header "Pods-BDDQuick-umbrella.h"
+
+  export *
+  module * { export * }
+}

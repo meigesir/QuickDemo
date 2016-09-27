@@ -1,0 +1,6 @@
+framework module Pods_BDDQuickUITests {
+  umbrella header "Pods-BDDQuickUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
