@@ -9,8 +9,14 @@
 import XCTest
 
 import Nimble
-import Quick
 @testable import BDDQuick
+
+
+extension Monkey {
+    open override var debugDescription: String {
+        return "Monkey(name: \(name!), silliness: \(silliness!))"
+    }
+}
 
 class SilliestMonkeyTests: XCTestCase {
     
@@ -25,7 +31,9 @@ class SilliestMonkeyTests: XCTestCase {
         
         // 使用Nimble
         expect(sillyMonkeys).to(contain(kiki))
+//        expect(sillyMonkeys).to(contain(jane))
         
     }
+
     
 }

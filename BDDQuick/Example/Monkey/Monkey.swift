@@ -15,7 +15,7 @@ public enum MonkeyIntelligent {
     case verySilly
 }
 
-open class Monkey: Equatable {
+open class Monkey: NSObject {
     
     var name      : String?
     var silliness : MonkeyIntelligent?
@@ -24,9 +24,4 @@ open class Monkey: Equatable {
         self.name      = name
         self.silliness = silliness
     }
-
-}
-
-public func ==(lhs: Monkey, rhs: Monkey) -> Bool {
-    return ObjectIdentifier(lhs) == ObjectIdentifier(rhs)
 }
