@@ -9,7 +9,7 @@
 import Foundation
 
 /// A delicious banana. Tastes better if you peel it first.
-open class Banana {
+open class Banana: NSObject{
     fileprivate var isPeeled = false
     
     /// Peels the banana.

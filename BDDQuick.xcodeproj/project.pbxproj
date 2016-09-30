@@ -14,6 +14,8 @@
 		D793568B1D9E489200C009C9 /* SunkenShip.swift in Sources */ = {isa = PBXBuildFile; fileRef = D793568A1D9E489200C009C9 /* SunkenShip.swift */; };
 		D793568D1D9E48BB00C009C9 /* Jamaica.swift in Sources */ = {isa = PBXBuildFile; fileRef = D793568C1D9E48BB00C009C9 /* Jamaica.swift */; };
 		D793568F1D9E48DB00C009C9 /* DolphinCove.swift in Sources */ = {isa = PBXBuildFile; fileRef = D793568E1D9E48DB00C009C9 /* DolphinCove.swift */; };
+		D79356921D9E543500C009C9 /* GorillaDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79356911D9E543500C009C9 /* GorillaDB.swift */; };
+		D79356951D9E56B900C009C9 /* GorillaDBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79356941D9E56B900C009C9 /* GorillaDBTests.swift */; };
 		D79519AF1D9916E700C6A594 /* SimpleStringSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79519AE1D9916E700C6A594 /* SimpleStringSpec.swift */; };
 		D7CAF61E1D82553800118371 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CAF61D1D82553800118371 /* AppDelegate.swift */; };
 		D7CAF6201D82553800118371 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CAF61F1D82553800118371 /* ViewController.swift */; };
@@ -65,6 +67,8 @@
 		D793568A1D9E489200C009C9 /* SunkenShip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SunkenShip.swift; sourceTree = "<group>"; };
 		D793568C1D9E48BB00C009C9 /* Jamaica.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Jamaica.swift; sourceTree = "<group>"; };
 		D793568E1D9E48DB00C009C9 /* DolphinCove.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DolphinCove.swift; sourceTree = "<group>"; };
+		D79356911D9E543500C009C9 /* GorillaDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GorillaDB.swift; sourceTree = "<group>"; };
+		D79356941D9E56B900C009C9 /* GorillaDBTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GorillaDBTests.swift; sourceTree = "<group>"; };
 		D79519AE1D9916E700C6A594 /* SimpleStringSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SimpleStringSpec.swift; path = ../../SimpleStringSpec.swift; sourceTree = "<group>"; };
 		D7CAF61A1D82553800118371 /* BDDQuick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BDDQuick.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7CAF61D1D82553800118371 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -163,6 +167,7 @@
 		D78BEF4B1D9923AD007147A5 /* Example */ = {
 			isa = PBXGroup;
 			children = (
+				D79356901D9E527F00C009C9 /* DB */,
 				D780DDD11D9BE57100B98F70 /* Sea */,
 				D7DC08CD1D9A899600638DF7 /* Monkey */,
 				D7DC08C01D9A85EB00638DF7 /* Banana */,
@@ -182,10 +187,27 @@
 		D78BEF4F1D9924FE007147A5 /* XCTest */ = {
 			isa = PBXGroup;
 			children = (
+				D79356931D9E569400C009C9 /* GorillaDBTests */,
 				D7DC08D01D9A8BD800638DF7 /* SilliestMonkeyTest */,
 				D7DC08C51D9A867C00638DF7 /* BananaTest */,
 			);
 			path = XCTest;
+			sourceTree = "<group>";
+		};
+		D79356901D9E527F00C009C9 /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				D79356911D9E543500C009C9 /* GorillaDB.swift */,
+			);
+			path = DB;
+			sourceTree = "<group>";
+		};
+		D79356931D9E569400C009C9 /* GorillaDBTests */ = {
+			isa = PBXGroup;
+			children = (
+				D79356941D9E56B900C009C9 /* GorillaDBTests.swift */,
+			);
+			path = GorillaDBTests;
 			sourceTree = "<group>";
 		};
 		D7CAF6111D82553800118371 = {
@@ -557,6 +579,7 @@
 			files = (
 				D793568D1D9E48BB00C009C9 /* Jamaica.swift in Sources */,
 				D793568F1D9E48DB00C009C9 /* DolphinCove.swift in Sources */,
+				D79356921D9E543500C009C9 /* GorillaDB.swift in Sources */,
 				D7DC08C41D9A85EB00638DF7 /* Offer.swift in Sources */,
 				D793568B1D9E489200C009C9 /* SunkenShip.swift in Sources */,
 				D7CAF6201D82553800118371 /* ViewController.swift in Sources */,
@@ -573,6 +596,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D79356951D9E56B900C009C9 /* GorillaDBTests.swift in Sources */,
 				D7DC08CB1D9A867C00638DF7 /* OfferTests.swift in Sources */,
 				D7DC08CA1D9A867C00638DF7 /* BananaTests.swift in Sources */,
 				D7DC08C91D9A867C00638DF7 /* BananaHelper.swift in Sources */,
