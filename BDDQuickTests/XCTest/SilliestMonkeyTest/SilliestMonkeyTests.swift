@@ -30,8 +30,8 @@ class SilliestMonkeyTests: XCTestCase {
 //        XCTAssertTrue(sillyMonkeys.contains(kiki), "Expected sillyMonkeys to contain 'Kiki'")
         
         // 使用Nimble
-        expect(sillyMonkeys).to(contain(kiki))
-//        expect(sillyMonkeys).to(contain(jane))
+//        expect(sillyMonkeys).to(contain(kiki))
+        expect(sillyMonkeys).to(contain(jane))
         
     }
 

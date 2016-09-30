@@ -8,13 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		87F66A32CC2F5A04E07272E5 /* Pods_BDDQuick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BE82AEC78196E33C308F037 /* Pods_BDDQuick.framework */; };
+		D780DDD31D9BE57D00B98F70 /* Dolphin.swift in Sources */ = {isa = PBXBuildFile; fileRef = D780DDD21D9BE57D00B98F70 /* Dolphin.swift */; };
+		D780DDD61D9BE62E00B98F70 /* DolphinSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = D780DDD51D9BE62E00B98F70 /* DolphinSpec.swift */; };
+		D780DDD81D9BEC9E00B98F70 /* Click.swift in Sources */ = {isa = PBXBuildFile; fileRef = D780DDD71D9BEC9E00B98F70 /* Click.swift */; };
+		D793568B1D9E489200C009C9 /* SunkenShip.swift in Sources */ = {isa = PBXBuildFile; fileRef = D793568A1D9E489200C009C9 /* SunkenShip.swift */; };
+		D793568D1D9E48BB00C009C9 /* Jamaica.swift in Sources */ = {isa = PBXBuildFile; fileRef = D793568C1D9E48BB00C009C9 /* Jamaica.swift */; };
+		D793568F1D9E48DB00C009C9 /* DolphinCove.swift in Sources */ = {isa = PBXBuildFile; fileRef = D793568E1D9E48DB00C009C9 /* DolphinCove.swift */; };
 		D79519AF1D9916E700C6A594 /* SimpleStringSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79519AE1D9916E700C6A594 /* SimpleStringSpec.swift */; };
 		D7CAF61E1D82553800118371 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CAF61D1D82553800118371 /* AppDelegate.swift */; };
 		D7CAF6201D82553800118371 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CAF61F1D82553800118371 /* ViewController.swift */; };
 		D7CAF6231D82553800118371 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7CAF6211D82553800118371 /* Main.storyboard */; };
 		D7CAF6251D82553800118371 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7CAF6241D82553800118371 /* Assets.xcassets */; };
 		D7CAF6281D82553800118371 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7CAF6261D82553800118371 /* LaunchScreen.storyboard */; };
-		D7CAF6331D82553800118371 /* BDDQuickTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CAF6321D82553800118371 /* BDDQuickTests.swift */; };
 		D7CAF63E1D82553800118371 /* BDDQuickUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CAF63D1D82553800118371 /* BDDQuickUITests.swift */; };
 		D7DC08C31D9A85EB00638DF7 /* Banana.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DC08C11D9A85EB00638DF7 /* Banana.swift */; };
 		D7DC08C41D9A85EB00638DF7 /* Offer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DC08C21D9A85EB00638DF7 /* Offer.swift */; };
@@ -54,6 +59,12 @@
 		4FEDBDC71BE0794B612F3539 /* Pods-BDDQuickUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BDDQuickUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BDDQuickUITests/Pods-BDDQuickUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		8FCE8F324A46A3D2E23ADC75 /* Pods-BDDQuick.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BDDQuick.release.xcconfig"; path = "Pods/Target Support Files/Pods-BDDQuick/Pods-BDDQuick.release.xcconfig"; sourceTree = "<group>"; };
 		B17D253DD28903F97787420D /* Pods_BDDQuickTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BDDQuickTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D780DDD21D9BE57D00B98F70 /* Dolphin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dolphin.swift; sourceTree = "<group>"; };
+		D780DDD51D9BE62E00B98F70 /* DolphinSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DolphinSpec.swift; sourceTree = "<group>"; };
+		D780DDD71D9BEC9E00B98F70 /* Click.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Click.swift; sourceTree = "<group>"; };
+		D793568A1D9E489200C009C9 /* SunkenShip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SunkenShip.swift; sourceTree = "<group>"; };
+		D793568C1D9E48BB00C009C9 /* Jamaica.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Jamaica.swift; sourceTree = "<group>"; };
+		D793568E1D9E48DB00C009C9 /* DolphinCove.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DolphinCove.swift; sourceTree = "<group>"; };
 		D79519AE1D9916E700C6A594 /* SimpleStringSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SimpleStringSpec.swift; path = ../../SimpleStringSpec.swift; sourceTree = "<group>"; };
 		D7CAF61A1D82553800118371 /* BDDQuick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BDDQuick.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7CAF61D1D82553800118371 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -63,7 +74,6 @@
 		D7CAF6271D82553800118371 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D7CAF6291D82553800118371 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D7CAF62E1D82553800118371 /* BDDQuickTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BDDQuickTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D7CAF6321D82553800118371 /* BDDQuickTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BDDQuickTests.swift; sourceTree = "<group>"; };
 		D7CAF6341D82553800118371 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D7CAF6391D82553800118371 /* BDDQuickUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BDDQuickUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7CAF63D1D82553800118371 /* BDDQuickUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BDDQuickUITests.swift; sourceTree = "<group>"; };
@@ -130,9 +140,30 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		D780DDD11D9BE57100B98F70 /* Sea */ = {
+			isa = PBXGroup;
+			children = (
+				D780DDD21D9BE57D00B98F70 /* Dolphin.swift */,
+				D780DDD71D9BEC9E00B98F70 /* Click.swift */,
+				D793568A1D9E489200C009C9 /* SunkenShip.swift */,
+				D793568C1D9E48BB00C009C9 /* Jamaica.swift */,
+				D793568E1D9E48DB00C009C9 /* DolphinCove.swift */,
+			);
+			path = Sea;
+			sourceTree = "<group>";
+		};
+		D780DDD41D9BE5F500B98F70 /* Dolphin */ = {
+			isa = PBXGroup;
+			children = (
+				D780DDD51D9BE62E00B98F70 /* DolphinSpec.swift */,
+			);
+			path = Dolphin;
+			sourceTree = "<group>";
+		};
 		D78BEF4B1D9923AD007147A5 /* Example */ = {
 			isa = PBXGroup;
 			children = (
+				D780DDD11D9BE57100B98F70 /* Sea */,
 				D7DC08CD1D9A899600638DF7 /* Monkey */,
 				D7DC08C01D9A85EB00638DF7 /* Banana */,
 			);
@@ -142,6 +173,7 @@
 		D78BEF4E1D9924FE007147A5 /* Quick */ = {
 			isa = PBXGroup;
 			children = (
+				D780DDD41D9BE5F500B98F70 /* Dolphin */,
 				D7DC08CC1D9A86A900638DF7 /* SimpleString */,
 			);
 			path = Quick;
@@ -197,7 +229,6 @@
 			children = (
 				D78BEF4E1D9924FE007147A5 /* Quick */,
 				D78BEF4F1D9924FE007147A5 /* XCTest */,
-				D7CAF6321D82553800118371 /* BDDQuickTests.swift */,
 				D7CAF6341D82553800118371 /* Info.plist */,
 			);
 			path = BDDQuickTests;
@@ -524,11 +555,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D793568D1D9E48BB00C009C9 /* Jamaica.swift in Sources */,
+				D793568F1D9E48DB00C009C9 /* DolphinCove.swift in Sources */,
 				D7DC08C41D9A85EB00638DF7 /* Offer.swift in Sources */,
+				D793568B1D9E489200C009C9 /* SunkenShip.swift in Sources */,
 				D7CAF6201D82553800118371 /* ViewController.swift in Sources */,
 				D7DC08C31D9A85EB00638DF7 /* Banana.swift in Sources */,
 				D7DC08D21D9A8BFB00638DF7 /* SilliestMonkey.swift in Sources */,
+				D780DDD81D9BEC9E00B98F70 /* Click.swift in Sources */,
 				D7CAF61E1D82553800118371 /* AppDelegate.swift in Sources */,
+				D780DDD31D9BE57D00B98F70 /* Dolphin.swift in Sources */,
 				D7DC08CF1D9A89A400638DF7 /* Monkey.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -539,9 +575,9 @@
 			files = (
 				D7DC08CB1D9A867C00638DF7 /* OfferTests.swift in Sources */,
 				D7DC08CA1D9A867C00638DF7 /* BananaTests.swift in Sources */,
-				D7CAF6331D82553800118371 /* BDDQuickTests.swift in Sources */,
 				D7DC08C91D9A867C00638DF7 /* BananaHelper.swift in Sources */,
 				D79519AF1D9916E700C6A594 /* SimpleStringSpec.swift in Sources */,
+				D780DDD61D9BE62E00B98F70 /* DolphinSpec.swift in Sources */,
 				D7DC08D61D9A8C7A00638DF7 /* SilliestMonkeyTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

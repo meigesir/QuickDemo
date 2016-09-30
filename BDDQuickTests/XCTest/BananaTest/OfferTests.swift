@@ -36,4 +36,9 @@ class OfferTests: XCTestCase {
         XCTAssertEqual(message, "Hey, want me to peel this banana for you?")
     }
     
+    override func tearDown() {
+        super.tearDown()
+        banana = nil
+    }
+    
 }
