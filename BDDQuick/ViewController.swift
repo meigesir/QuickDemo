@@ -10,9 +10,20 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    // MARK: Properties
+    var dataProvider: DataProviderProtocol?
+    
+    // MARK: View Controller Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        dataProvider = dataProvider ?? DataProvider()
+        
+        dataProvider?.fetch(callback: { (data) in
+            print(data)
+        })
+        
     }
 
     override func didReceiveMemoryWarning() {

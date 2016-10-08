@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		87F66A32CC2F5A04E07272E5 /* Pods_BDDQuick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BE82AEC78196E33C308F037 /* Pods_BDDQuick.framework */; };
+		D7430D571DA8FC5E00EF485A /* DataProviderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7430D561DA8FC5E00EF485A /* DataProviderProtocol.swift */; };
+		D7430D591DA909A800EF485A /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7430D581DA909A800EF485A /* DataProvider.swift */; };
+		D7430D5C1DA9105700EF485A /* BananaViewControllerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7430D5B1DA9105700EF485A /* BananaViewControllerSpec.swift */; };
+		D7430D5F1DA9108100EF485A /* MockDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7430D5E1DA9108100EF485A /* MockDataProvider.swift */; };
+		D7430D611DA9115500EF485A /* ViewControllerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7430D601DA9115500EF485A /* ViewControllerSpec.swift */; };
 		D780DDD31D9BE57D00B98F70 /* Dolphin.swift in Sources */ = {isa = PBXBuildFile; fileRef = D780DDD21D9BE57D00B98F70 /* Dolphin.swift */; };
 		D780DDD61D9BE62E00B98F70 /* DolphinSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = D780DDD51D9BE62E00B98F70 /* DolphinSpec.swift */; };
 		D780DDD81D9BEC9E00B98F70 /* Click.swift in Sources */ = {isa = PBXBuildFile; fileRef = D780DDD71D9BEC9E00B98F70 /* Click.swift */; };
@@ -17,7 +22,6 @@
 		D79356921D9E543500C009C9 /* GorillaDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79356911D9E543500C009C9 /* GorillaDB.swift */; };
 		D79356951D9E56B900C009C9 /* GorillaDBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79356941D9E56B900C009C9 /* GorillaDBTests.swift */; };
 		D79356981D9E641C00C009C9 /* BananaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79356971D9E641C00C009C9 /* BananaViewController.swift */; };
-		D793569B1D9E64E600C009C9 /* BananaViewControllerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = D793569A1D9E64E600C009C9 /* BananaViewControllerSpec.swift */; };
 		D79519AF1D9916E700C6A594 /* SimpleStringSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79519AE1D9916E700C6A594 /* SimpleStringSpec.swift */; };
 		D7CAF61E1D82553800118371 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CAF61D1D82553800118371 /* AppDelegate.swift */; };
 		D7CAF6201D82553800118371 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CAF61F1D82553800118371 /* ViewController.swift */; };
@@ -63,6 +67,11 @@
 		4FEDBDC71BE0794B612F3539 /* Pods-BDDQuickUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BDDQuickUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BDDQuickUITests/Pods-BDDQuickUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		8FCE8F324A46A3D2E23ADC75 /* Pods-BDDQuick.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BDDQuick.release.xcconfig"; path = "Pods/Target Support Files/Pods-BDDQuick/Pods-BDDQuick.release.xcconfig"; sourceTree = "<group>"; };
 		B17D253DD28903F97787420D /* Pods_BDDQuickTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BDDQuickTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7430D561DA8FC5E00EF485A /* DataProviderProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataProviderProtocol.swift; sourceTree = "<group>"; };
+		D7430D581DA909A800EF485A /* DataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
+		D7430D5B1DA9105700EF485A /* BananaViewControllerSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BananaViewControllerSpec.swift; sourceTree = "<group>"; };
+		D7430D5E1DA9108100EF485A /* MockDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockDataProvider.swift; sourceTree = "<group>"; };
+		D7430D601DA9115500EF485A /* ViewControllerSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerSpec.swift; sourceTree = "<group>"; };
 		D780DDD21D9BE57D00B98F70 /* Dolphin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dolphin.swift; sourceTree = "<group>"; };
 		D780DDD51D9BE62E00B98F70 /* DolphinSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DolphinSpec.swift; sourceTree = "<group>"; };
 		D780DDD71D9BEC9E00B98F70 /* Click.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Click.swift; sourceTree = "<group>"; };
@@ -72,7 +81,6 @@
 		D79356911D9E543500C009C9 /* GorillaDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GorillaDB.swift; sourceTree = "<group>"; };
 		D79356941D9E56B900C009C9 /* GorillaDBTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GorillaDBTests.swift; sourceTree = "<group>"; };
 		D79356971D9E641C00C009C9 /* BananaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BananaViewController.swift; sourceTree = "<group>"; };
-		D793569A1D9E64E600C009C9 /* BananaViewControllerSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BananaViewControllerSpec.swift; sourceTree = "<group>"; };
 		D79519AE1D9916E700C6A594 /* SimpleStringSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SimpleStringSpec.swift; path = ../../SimpleStringSpec.swift; sourceTree = "<group>"; };
 		D7CAF61A1D82553800118371 /* BDDQuick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BDDQuick.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7CAF61D1D82553800118371 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -148,6 +156,32 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		D7430D551DA8FC0900EF485A /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				D7430D561DA8FC5E00EF485A /* DataProviderProtocol.swift */,
+				D7430D581DA909A800EF485A /* DataProvider.swift */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		D7430D5A1DA9105700EF485A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D7430D5B1DA9105700EF485A /* BananaViewControllerSpec.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D7430D5D1DA9106700EF485A /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				D7430D5E1DA9108100EF485A /* MockDataProvider.swift */,
+				D7430D601DA9115500EF485A /* ViewControllerSpec.swift */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
 		D780DDD11D9BE57100B98F70 /* Sea */ = {
 			isa = PBXGroup;
 			children = (
@@ -171,6 +205,7 @@
 		D78BEF4B1D9923AD007147A5 /* Example */ = {
 			isa = PBXGroup;
 			children = (
+				D7430D551DA8FC0900EF485A /* Mock */,
 				D79356961D9E63B400C009C9 /* Controller */,
 				D79356901D9E527F00C009C9 /* DB */,
 				D780DDD11D9BE57100B98F70 /* Sea */,
@@ -183,6 +218,8 @@
 		D78BEF4E1D9924FE007147A5 /* Quick */ = {
 			isa = PBXGroup;
 			children = (
+				D7430D5D1DA9106700EF485A /* Mock */,
+				D7430D5A1DA9105700EF485A /* Controller */,
 				D780DDD41D9BE5F500B98F70 /* Dolphin */,
 				D7DC08CC1D9A86A900638DF7 /* SimpleString */,
 			);
@@ -221,15 +258,6 @@
 				D79356971D9E641C00C009C9 /* BananaViewController.swift */,
 			);
 			path = Controller;
-			sourceTree = "<group>";
-		};
-		D79356991D9E64CB00C009C9 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				D793569A1D9E64E600C009C9 /* BananaViewControllerSpec.swift */,
-			);
-			name = Controller;
-			path = Quick/Controller;
 			sourceTree = "<group>";
 		};
 		D7CAF6111D82553800118371 = {
@@ -271,7 +299,6 @@
 		D7CAF6311D82553800118371 /* BDDQuickTests */ = {
 			isa = PBXGroup;
 			children = (
-				D79356991D9E64CB00C009C9 /* Controller */,
 				D78BEF4E1D9924FE007147A5 /* Quick */,
 				D78BEF4F1D9924FE007147A5 /* XCTest */,
 				D7CAF6341D82553800118371 /* Info.plist */,
@@ -610,7 +637,9 @@
 				D7DC08D21D9A8BFB00638DF7 /* SilliestMonkey.swift in Sources */,
 				D780DDD81D9BEC9E00B98F70 /* Click.swift in Sources */,
 				D7CAF61E1D82553800118371 /* AppDelegate.swift in Sources */,
+				D7430D571DA8FC5E00EF485A /* DataProviderProtocol.swift in Sources */,
 				D780DDD31D9BE57D00B98F70 /* Dolphin.swift in Sources */,
+				D7430D591DA909A800EF485A /* DataProvider.swift in Sources */,
 				D7DC08CF1D9A89A400638DF7 /* Monkey.swift in Sources */,
 				D79356981D9E641C00C009C9 /* BananaViewController.swift in Sources */,
 			);
@@ -623,10 +652,12 @@
 				D79356951D9E56B900C009C9 /* GorillaDBTests.swift in Sources */,
 				D7DC08CB1D9A867C00638DF7 /* OfferTests.swift in Sources */,
 				D7DC08CA1D9A867C00638DF7 /* BananaTests.swift in Sources */,
+				D7430D611DA9115500EF485A /* ViewControllerSpec.swift in Sources */,
 				D7DC08C91D9A867C00638DF7 /* BananaHelper.swift in Sources */,
-				D793569B1D9E64E600C009C9 /* BananaViewControllerSpec.swift in Sources */,
+				D7430D5C1DA9105700EF485A /* BananaViewControllerSpec.swift in Sources */,
 				D79519AF1D9916E700C6A594 /* SimpleStringSpec.swift in Sources */,
 				D780DDD61D9BE62E00B98F70 /* DolphinSpec.swift in Sources */,
+				D7430D5F1DA9108100EF485A /* MockDataProvider.swift in Sources */,
 				D7DC08D61D9A8C7A00638DF7 /* SilliestMonkeyTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
