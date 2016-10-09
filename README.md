@@ -386,6 +386,6 @@ class AsynchronousSpec: QuickSpec {
 更多请看Example
 
 参考:
-1. [TDD的iOS开发初步以及Kiwi使用入门](https://onevcat.com/2014/02/ios-test-with-kiwi/)
 
+1. [TDD的iOS开发初步以及Kiwi使用入门](https://onevcat.com/2014/02/ios-test-with-kiwi/)
 2. [Quick Documentation](https://github.com/Quick/Quick/tree/master/Documentation)
