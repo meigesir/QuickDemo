@@ -389,3 +389,8 @@ class AsynchronousSpec: QuickSpec {
 
 1. [TDD的iOS开发初步以及Kiwi使用入门](https://onevcat.com/2014/02/ios-test-with-kiwi/)
 2. [Quick Documentation](https://github.com/Quick/Quick/tree/master/Documentation)
+
+
+## License
+
+QuickDemo is released under the MIT license. See LICENSE for details.
